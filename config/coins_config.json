@@ -1,0 +1,19 @@
+{
+  "pipeline_code": "POC-CRYPTO-001",
+  "top_n_coins": 50,
+  "vs_currency": "usd",
+  "exchange_rate_base": "USD",
+  "target_currencies": ["EUR", "GBP", "JPY", "CHF"],
+  "market_cap_categories": {
+    "mega":  10000000000,
+    "large": 1000000000,
+    "mid":   100000000,
+    "small": 10000000
+  },
+  "volatility_thresholds": {
+    "high": 5.0,
+    "medium": 2.0
+  },
+  "coingecko_base_url": "https://api.coingecko.com/api/v3",
+  "exchange_rate_url": "https://open.er-api.com/v6/latest/USD"
+}
